@@ -983,9 +983,18 @@ input, select, textarea {
 
 		#header nav {
 			padding: 0 1em;
+<<<<<<< Updated upstream
 		} }
 
 	/*  */
+=======
+<<<<<<< Updated upstream
+		} }
+=======
+		} }
+
+	/* particles.js */
+>>>>>>> Stashed changes
 		#particles-js {
 			position: absolute;
 			width: 100%;
@@ -995,4 +1004,9 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: 50% 50%;
+<<<<<<< Updated upstream
 		  }
+=======
+		  }
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes

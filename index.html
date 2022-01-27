@@ -12,32 +12,35 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
 
+	<body class="is-preload">
+		
+		<!-- particles.js container -->
+		<div id="particles-js"></div>
+		
+		<div id="wrapper">
+			<div id="main">
 				<!-- Header -->
-					<header id="header">
-						<h1>Grey</h1>
-						<p>IT &nbsp;&bull;&nbsp; Nerd &nbsp;&bull;&nbsp; More text</p>
-						<nav>
-							<ul>
-								<li><a href="https://github.com/NanoSymmetry" class="icon brands fa-github"></a></li>
-					        	</ul>
-						</nav>
-					</header>
+				<header id="header">
+					<h1>Grey</h1>
+					<p>IT &nbsp;&bull;&nbsp; Nerd &nbsp;&bull;&nbsp; Servers &nbsp;&bull;&nbsp; more text</p>
+					<nav>
+						<ul>
+							<li><a href="https://github.com/NanoSymmetry" class="icon brands fa-github"></a></li>
+						</ul>
+					</nav>
+				</header>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
-
+				<footer id="footer">
+					<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+				</footer>
 			</div>
 		</div>
+		<script src="index.js"></script>
+		<script src="node_modules/particles.js/"></script>
 		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.onload = function() { document.body.classList.remove('is-preload'); };
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
 		</script>

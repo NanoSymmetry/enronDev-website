@@ -1,6 +1,7 @@
-const particlesJS = require('particles.js')
+const tsParticles = require('tsparticles')
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS('particles-js', 'assets/particlesjs-config.json', function() {
+tsParticles.loadJSON('particles-js', 'assets/particlesConfig.json').then(function(p) {
+    // p is the loaded container, for using it later
     console.log('callback - particles.js config loaded');
-});
+  });

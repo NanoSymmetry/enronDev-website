@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/NanoSymmetry/enronDev-website#readme",
   "dependencies": {
-    "particles.js": "^2.0.0"
+    "tsparticles": "^1.39.2"
   }
 }

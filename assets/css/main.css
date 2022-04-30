@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&display=swap');
 @import url("all.css");
 
 /*
@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-color: grey;
 }
 
 ol, ul {
@@ -83,7 +84,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		/* background: #fff; */
 		overflow: hidden;
 	}
 
@@ -99,8 +100,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+/* 		color: #fff; */
+		font-family: 'B612 Mono', monospace;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;

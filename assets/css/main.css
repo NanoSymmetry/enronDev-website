@@ -31,7 +31,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	background-color: grey;
 }
 
 ol, ul {
@@ -84,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		/* background: #fff; */
+		background: #fff;
 		overflow: hidden;
 	}
 
@@ -100,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-/* 		color: #fff; */
+		color: #fff;
 		font-family: 'B612 Mono', monospace;
 		font-size: 15pt;
 		font-weight: 300 !important;

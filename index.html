@@ -9,35 +9,41 @@
 		<title>Grey</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://kit.fontawesome.com/b929e00799.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="assets/css/main.css" /> <!-- Site CSS -->
+		<link rel="stylesheet" href="assets/css/all.css"/> <!-- FA CSS -->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+
+	<!-- particles.js container -->
+	<div id="tsParticles"></div>
+
 	<body class="is-preload">
 		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
 			<div id="main">
-
 				<!-- Header -->
-					<header id="header">
-						<h1>Grey</h1>
-						<p>IT &nbsp;&bull;&nbsp; Nerd &nbsp;&bull;&nbsp; More text</p>
-						<nav>
-							<ul>
-								<li><a href="https://github.com/NanoSymmetry" class="icon brands fa-github"></a></li>
-					        	</ul>
-						</nav>
-					</header>
+				<header id="header">
+					<h1>Grey</h1>
+					<p>IT &nbsp;&bull;&nbsp; Nerd &nbsp;&bull;&nbsp; Servers &nbsp;&bull;&nbsp; more text</p>
+					<nav>
+						<ul>
+							<li><a href="https://github.com/NanoSymmetry" class="icon fa-brands fa-github"></a></li>
+							<li><a href="https://hub.docker.com/u/dockrails" class="icon fa-brands fa-docker"></a></li>
+							<li><a href="mailto:grey@enron.dev" class="icon fa-solid fa-envelope"></a></li>
+						</ul>
+					</nav>
+				</header>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
-
+				<footer id="footer">
+					<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+				</footer>
 			</div>
 		</div>
+		<script src="https://cdn.jsdelivr.net/npm/tsparticles@1.16.2/dist/tsparticles.min.js" integrity="sha256-2Sly/Hf9UP7YBu6LEPpn/6rxMZR5EeGq89mBa4G5+YA=" crossorigin="anonymous"></script>
+		<script src="./app.js"></script>
 		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.onload = function() { document.body.classList.remove('is-preload'); };
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
 		</script>

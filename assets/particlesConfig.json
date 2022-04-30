@@ -3,6 +3,9 @@
     "enable": true
   },
   "fpsLimit": 60,
+  "background": {
+    "color": "#004d4f"
+  },
   "particles": {
     "number": {
       "value": 80,

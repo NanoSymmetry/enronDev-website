@@ -1,4 +1,8 @@
 {
+  "fullScreen": {
+    "enable": true
+  },
+  "fpsLimit": 60,
   "particles": {
     "number": {
       "value": 80,

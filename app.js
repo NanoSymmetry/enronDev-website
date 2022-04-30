@@ -1,5 +1,5 @@
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-tsParticles.load('tsparticles', 'assets/particlesConfig.json').then(function(p) {
+tsParticles.loadJSON('tsParticles', 'assets/particlesConfig.json').then(() => {
     // p is the loaded container, for using it later
     console.log('callback - particles.js config loaded');
   });

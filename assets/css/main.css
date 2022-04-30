@@ -150,7 +150,7 @@ input, select, textarea {
 			font-weight: 900;
 		}
 
-		.icon.brands:before, .icon.regular:before{
+		.icon.brands:before{
 			font-family: 'Font Awesome 5 Brands';
 		}
 

@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/NanoSymmetry/enronDev-website#readme",
   "dependencies": {
-    "tsparticles": "^1.39.2"
+    "tsparticles-engine": "^2.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }

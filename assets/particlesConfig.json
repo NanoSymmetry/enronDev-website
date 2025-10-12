@@ -4,7 +4,7 @@
   },
   "fpsLimit": 60,
   "background": {
-    "color": "#004d4f"
+    "color": "#048243"
   },
   "particles": {
     "number": {
@@ -15,7 +15,7 @@
       }
     },
     "color": {
-      "value": "#3f012c"
+      "value": "#CAFFFB"
     },
     "shape": {
       "type": "circle",
@@ -55,7 +55,7 @@
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#f4320c",
+      "color": "#32BF84",
       "opacity": 1,
       "width": 1
     },
